@@ -1,0 +1,111 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  line-height: 1.5;
+}
+
+h1 {
+  color: darkred;
+}
+
+.recipe-card {
+  max-width: 600px;
+  background-color: antiquewhite;
+  border: 2px solid darkblue;
+  margin: 0 auto;
+}
+
+.recipe-card img {
+  width: 480px;
+  margin: 0px auto;
+  display: block;
+}
+
+.recipe-card h1 {
+  text-align: center;
+}
+
+.recipe-card h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.recipe-card h3 {
+  text-transform: uppercase;
+}
+
+.recipe-card h4 {
+  margin: 0;
+}
+
+.quick-info {
+  padding: 8px;
+  border: 1px solid black;
+  margin: 40px 20px;
+  background-color: white;
+}
+
+.quick-info h2 {
+  margin: 20px 0;
+}
+
+.quick-info ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.quick-info li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.recipe-details {
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.directions ol {
+  padding: 0;
+}
+
+.directions p {
+  margin: 0;
+}
+
+.directions li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.links-bar {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.links-bar button {
+  width: 150px;
+  padding: 8px 12px;
+  margin: 0 12px;
+  background-color: lightcoral;
+}
+
+.links-bar a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
